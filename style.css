@@ -1,0 +1,78 @@
+body {
+    background-color: #E5B299;
+    margin: 0;
+    padding: 0;
+}
+.h {
+    overflow: hidden;
+}
+h1 {
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    animation: mhead linear 9s infinite;
+}
+@keyframes mhead {
+    0% {
+        right: 0%;
+    }
+    50% {
+        
+        right: 83%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+.box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 20px;
+    width: fit-content;
+}
+.box img {
+    max-width: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.box .bt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    background-color: #7D5A50;
+    color: #FCDEC0;
+    padding: 20px 0;
+    height: fit-content;
+    width: 300px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #B4846C;
+}
+.info-box {
+    background-color: #7D5A50;
+    color: #FCDEC0;
+    padding: 15px;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: auto;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.info-box .hd {
+    font-size: 22px;
+}
+.info-box .det  {
+    padding-right: 20px;
+}
